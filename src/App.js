@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import classes from './App.css';
+import Layout from './components/Layout/Layout';
+import Jar from './containers/Jar/Jar';
 
 
 class App extends Component {
@@ -10,7 +12,9 @@ class App extends Component {
     render() {
         return(
             <div className={classes.App}>
-                Goalsjar
+                <Layout>
+                    <Jar/>
+                </Layout>
             </div>
     )
     }
