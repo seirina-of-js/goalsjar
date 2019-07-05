@@ -1,0 +1,21 @@
+.sugarplum {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #222;
+    background: azure;
+}
+
+.big {
+    width: 35px;
+    height: 35px;
+}
+
+.medium {
+    width: 25px;
+    height: 25px;
+}
