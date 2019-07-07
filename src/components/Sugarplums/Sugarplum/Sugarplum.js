@@ -8,10 +8,10 @@ class Sugarplum extends Component {
 
         switch (this.props.type) {
             case ('big'):
-                sugarplum = <div className={classes.sugarplum, classes.big} style={{ color: this.props.color}}></div>;
+                sugarplum = <div className={[classes.sugarplum, classes.big].join(' ')} style={{ color: this.props.color}}></div>;
                 break;
             case ('medium'):
-                sugarplum = <div className={classes.sugarplum, classes.medium} style={{ color: this.props.color}}></div>;
+                sugarplum = <div className={[classes.sugarplum, classes.medium].join(' ')} style={{ color: this.props.color}}></div>;
                 break;
             case('small'):
                 sugarplum = <div className={classes.sugarplum} style={{ color: this.props.color}}></div>;
