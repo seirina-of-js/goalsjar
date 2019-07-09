@@ -21,6 +21,10 @@
     height: 80%;
 }
 
+.menu {
+
+}
+
 @media (max-width: 499px) {
     .desktopOnly {
         display: none;

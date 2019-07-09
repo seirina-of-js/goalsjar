@@ -4,7 +4,7 @@ import SugarplumsInJar from '../../assets/images/sweetsinjar.png';
 
 
 const logo = (props) => (
-    <div className={classes.logo} style={{height: props.height}}>
+    <div className={classes.logo}>
         <img src={SugarplumsInJar} alt="Goalsjar" />
     </div>
 );
